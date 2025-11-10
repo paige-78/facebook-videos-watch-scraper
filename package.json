@@ -1,0 +1,23 @@
+{
+  "name": "facebook-videos-watch-scraper",
+  "version": "1.0.0",
+  "description": "Extract public Facebook Watch video data by URL or search query.",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "scrape:query": "node src/main.js --query \"facebook watch\" --format json",
+    "scrape:url": "node src/main.js --url \"https://www.facebook.com/watch/?v=1018213269105012\" --format json",
+    "lint": "node -e \"console.log('No linter configured')\""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^23.6.0",
+    "yargs": "^17.7.2",
+    "winston": "^3.14.2"
+  }
+}
