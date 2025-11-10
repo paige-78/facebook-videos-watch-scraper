@@ -1,0 +1,3 @@
+# This repository uses Node.js (see package.json).
+# This file exists only to satisfy environments that expect a Python requirements file.
+# No Python dependencies are required.
