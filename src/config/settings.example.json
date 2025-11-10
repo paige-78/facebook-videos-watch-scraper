@@ -1,0 +1,10 @@
+{
+  "scrollsAmount": 20,
+  "timeouts": {
+    "navigationMs": 45000,
+    "scrollWaitMs": 900
+  },
+  "launchOptions": {
+    "headless": "new"
+  }
+}
